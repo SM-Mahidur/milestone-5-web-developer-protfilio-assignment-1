@@ -139,12 +139,13 @@ color: #FD6E0A;
 
 /* Footer section  */
 .footer{
-    height: 580px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
-    padding: 130px 130px;
-    gap: 25px;
-    text-align: justify;
+    padding: 150px 130px;
+    gap: 50px;
+    margin-top: 100px;
+    background: #FFF8F3;
 }
 .footer-left-content{
     max-width: 50%;
@@ -152,5 +153,30 @@ color: #FD6E0A;
 }
 .footer-right-content{
     max-width: 50%;
-    float: left;
+    float: right;
+}
+/* #leftTitle {
+    margin-left: -260px;
+} */
+input{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    border: 0;
+    padding-left: 30px;
+}
+textarea{
+    padding-left: 30px;
+    padding-top: 18px;
+}
+textarea#Message {
+    width: 463px;
+    border: 0;
+}
+#leftTitle{
+    text-align: left;
+}
+#rightTitle{
+    text-align: left;
 }
