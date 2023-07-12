@@ -13,13 +13,17 @@ body{
     font-weight: 700;
     cursor: pointer;
 }
-
+.commonTitle{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+}
 /* nav style section  */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 256px;
+    margin: 0px 150px;
 }
 nav > ul{
     display: flex;
@@ -46,4 +50,107 @@ color: #FD6E0A;
 /* header style section  */
 .header{
     background: #FFF8F3;
+    background-image: url('../assests/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerContent{
+    max-width: 500px;
+}
+.banner .prfile-image{
+    max-width: 500px;
+}
+.bannerGreeting{
+    color:  #474747;
+    font-size: 45px;
+}
+.bannerTitle{
+    color: #181818;
+    font-size: 58px;
+}
+.bannerDescription{
+    color:#757575;
+    font-size: 18px;
+}
+#cmnbtn{
+    margin-right: 47px;
+}
+
+/* Main section  */
+.aboutSection{
+    border-radius: 10px;
+    background: #FFF8F3;
+    width: 1040px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px 30px;
+}
+.aboutFooter{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.aboutDescription{
+    color: #757575;
+    text-align: center;
+    font-size: 17px;
+}
+/* what i do section  */
+.ido{
+    width: 1040px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px 30px;
+}
+.do-box-content{
+    display: flex;
+    gap:24px;
+    text-align: justify;
+}
+.cmnbox{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-top: 50px;
+}
+/* summary resume  */
+
+.summary-box{
+    display: flex;
+    gap:71px;
+    flex-basis: 50%;
+    width: 1040px;
+    margin: 50px auto;
+    padding: 50px 30px;
+}
+#resuembtn {
+    margin: auto;
+    display: block;
+    margin-top: -47px;
+}
+
+/* Footer section  */
+.footer{
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 130px;
+    gap: 25px;
+    text-align: justify;
+}
+.footer-left-content{
+    max-width: 50%;
+    float:left;
+}
+.footer-right-content{
+    max-width: 50%;
+    float: left;
 }
